@@ -8,6 +8,8 @@
 body {
     font-family: sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -145,6 +147,7 @@ button {
 /* Section Four Starts */
     
 .section-four  {
+    flex: 1;
     background-color: #3882F6; 
     color: #F9FAF8;
     margin: 0 100px;
